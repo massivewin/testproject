@@ -1,6 +1,4 @@
 {
-  "name": "my-editor",
-  "main": "worker.js",
-  "compatibility_date": "2026-07-20",
-  "compatibility_flags": ["nodejs_compat"]
+  "allowed_origins": ["*"],
+  "max_file_size": "10mb"
 }
