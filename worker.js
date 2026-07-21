@@ -1,4 +1,15 @@
 // Cloudflare Worker - CORS Proxy
+// AUTO-GENERATED CONFIG (from config.json)
+export const CONFIG = {
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-editor",
+  "main": "worker.js",
+  "compatibility_date": "2026-07-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+};
+
 export default {
   async fetch(request) {
     const url = new URL(request.url);
